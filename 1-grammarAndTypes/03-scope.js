@@ -22,3 +22,27 @@ function varTest(){
     console.log(scope)
 }
 vartest()
+
+//now with let
+function letTest(){
+    let scope = 1
+    if (true) {
+        let scope = 2
+        console.log(scope)
+    }
+    console.log(scope)
+}
+letTest()
+
+//not with const
+function constTest(){
+    const scope = 1
+    if (true){
+        const scope = 2
+        console.log(scope)
+    }
+    console.log(scope)
+}
+constTest()
+
+//TLDR; let and const - block scope; var is not.
