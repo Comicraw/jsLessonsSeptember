@@ -18,3 +18,5 @@ for (cat of catArray) {
 for (cat in catArray) {
     console.log(cat);
 }
+
+//for of loops will give you the value and for in loops will give you the index number
