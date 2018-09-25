@@ -14,7 +14,7 @@ x *= 1; // x = x * 1
 x /= 1; // x = x / 1
 
 //Remainder (or Modulus) assignment
-x %= 1; //x = x % 1
+x %= 1; //x = x / 1 remainder
 
 //Exponential assignment
 x **= 1; // x = x ** 1  (x**1 = x^1)

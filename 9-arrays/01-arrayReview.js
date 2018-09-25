@@ -116,3 +116,16 @@ arr.forEach((number) => { console.log(number) })
 
 let arr = new Array(1, 2, 3, 4, 5)
 console.log(arr)
+
+//challenge
+
+let colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet', 'black', 'brown', 'white'];
+let numbers = ['st', 'nd', 'rd', 'th', 'th', 'th', 'th', 'th', 'th', 'th']
+
+function newArray(numberArray, colorArray) {
+
+}
+
+newArray()
+//wrong
+

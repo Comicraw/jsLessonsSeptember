@@ -38,5 +38,5 @@ let clock = (t, r, e, s) => {};
 //vvvvvvvvvvvvvv this has to stay one line
 let func = () => console.log('good'); //ok
 
-let function = ()
-    => console.log('bad') //not ok
+let function = () 
+=> console.log('bad') //not ok

@@ -1,5 +1,5 @@
 console.log(scissors)
-var scissors = "pink scissors"j
+var scissors = "pink scissors";
 
 console.log(cats)
 let cats = "the best"
