@@ -1,6 +1,6 @@
 // Declaring Functions
 
-function hi() {
+function hi() { //this is the actual declaration
     console.log('HI')
 }
 

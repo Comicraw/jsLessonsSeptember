@@ -24,9 +24,9 @@ capture that returned value in a variable
 print that variable
  */
 
-function tipCalculator(reciept) {
+function tipCalculator(receipt) {
     let tip = 0.2;
-    let total = reciept * tip + reciept;
+    let total = receipt * tip + receipt;
     return total
 }
 
@@ -39,3 +39,17 @@ function tipCalc(bill) {
 }
 const tip = tipCalc(234.23)
 console.log(tip)
+
+
+
+//--------------------------------------------
+
+
+function tipCalculator(receipt) {
+    let tip = 0.2
+    total = tip * receipt + receipt
+    return total
+}
+
+let totalBill = tipCalculator(40.00)
+console.log(totalBill)
